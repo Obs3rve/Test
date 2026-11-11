@@ -1,0 +1,47 @@
+<!-- wp:paragraph {"className":"ab-article-intro"} -->
+<p class="ab-article-intro">DNS stands for Domain Name System. It helps your device find the network address associated with a name such as example.com. When DNS is not working, the internet connection itself might still be fine, but websites can fail to load by name.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>What happens when you enter a website address?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your browser needs an IP address for the destination. It checks available local information and may ask a DNS resolver. That resolver uses cached results or finds the answer from other DNS servers. After receiving the address, your device can attempt to connect to the relevant service.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Why DNS matters in IT support</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A user might say: The Wi-Fi is connected but I cannot open our company portal. This description does not prove DNS is the problem. Your job is to test whether the device has general connectivity and whether the failure affects name resolution, a single website or the entire connection.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>A safe troubleshooting sequence</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><li>Confirm the exact error and which websites or applications are affected</li><li>Check whether the device has an IP address and a working network connection</li><li>Try a known website and compare with another device on the same network</li><li>Use nslookup to see how a DNS name is being resolved</li><li>Review approved DNS settings and escalate network-wide issues when needed</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2>Useful Windows commands</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Open Command Prompt and try ipconfig /all to inspect the current network configuration. The nslookup command can request a DNS lookup, such as nslookup example.com. The ping command can provide limited connectivity evidence, but some hosts block ICMP, so a failed ping alone is not proof a service is down.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Common mistakes</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Do not change DNS servers on a managed work computer without authorisation. Do not assume every connection issue is caused by DNS. And avoid using public DNS settings as a quick fix if company policies require internal DNS for private services.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The best way to learn networking is to connect each concept to an actual support scenario. Next, explore DHCP, gateways and how applications depend on the network.</p>
+<!-- /wp:paragraph -->
